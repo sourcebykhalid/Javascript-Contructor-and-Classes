@@ -30,3 +30,5 @@ function parent() {
   child2();
 }
 parent();
+
+console.log(`This is Lexical Scoping in Javascript`);
