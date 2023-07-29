@@ -1,13 +1,13 @@
 // Javascript Closures
-function funcOne() {
-  const name = "Jessy";
-  function funcTwo() {
-    console.log(name);
-  }
-  return funcTwo;
-}
-const myFunc = funcOne();
-myFunc();
+// function funcOne() {
+//   const name = "Jessy";
+//   function funcTwo() {
+//     console.log(name);
+//   }
+//   return funcTwo;
+// }
+// const myFunc = funcOne();
+// myFunc();
 
 function click(color) {
   return function () {
